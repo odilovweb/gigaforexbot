@@ -158,7 +158,8 @@ bot.on("callback_query", (ctx) => {
   if (dataCallback == "0dan") {
     try {
       ctx.reply(
-        "0 dan boshlash uchun barcha bepul darsliklar ushbu kanalda 👇"
+        `0 dan boshlash uchun barcha bepul darsliklar ushbu kanalda 👇
+https://t.me/+lRxDrOIa7Fk1ZWVi`
       );
     } catch (e) {
       console.log(e);
@@ -166,21 +167,25 @@ bot.on("callback_query", (ctx) => {
   } else if (dataCallback == "razgon") {
     try {
       ctx.reply(
-        "Razgon strategiyalar ushbu kanalda va har hafta razgon qilinadi 👇"
+        `Razgon strategiyalar ushbu kanalda va har hafta razgon qilinadi 
+        
+https://t.me/+rmAi2iO97a44N2Uy`
       );
     } catch (e) {
       console.log(e);
     }
   } else if (dataCallback == "news") {
     try {
-      ctx.reply("Newsda ishlash strategiyalari ushbu kanalda 👇");
+      ctx.reply(`Newsda ishlash strategiyalari ushbu kanalda 👇
+https://t.me/+mdE5L8vd465hN2My`);
     } catch (e) {
       console.log(e);
     }
   } else if (dataCallback == "ozpul") {
     try {
       ctx.reply(
-        "Kam pul bilan ko'proq daromad olmoqchilar uchun strategiyalar 👇"
+        `Kam pul bilan ko'proq daromad olmoqchilar uchun strategiyalar 👇
+https://t.me/+GHnfWo7zL_RhYzli`
       );
     } catch (e) {
       console.log(e);
